@@ -1,0 +1,43 @@
+.contenedor{
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+    padding:20px;
+    background-color: lightpink;
+    border-radius: 8px;
+}
+
+
+
+div.datos-usuario{
+    flex-direction: column;
+    text-align: center;
+    display:flex;
+}
+
+input {
+    border-color: black;
+    border-radius: 20%;
+    border-style: double;
+
+}
+
+.recommed{
+    flex-direction: column;
+    text-align: center;
+
+}
+
+
+.recommed input,.recommed label{
+    display: inline-block;
+
+}
+
+
+.checkbox{
+    flex-direction: column;
+    text-align: center;
+    display:flex;
+}
+
